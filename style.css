@@ -6,9 +6,18 @@
 
 body{
     color: black;
-    background-color: black;
 }
 
+/* hero section  */
+header .hero{
+    padding: 2% 6%;
+    background: rgb(0, 0, 0);
+
+}
+
+.hero img{
+    width: 100%;
+}
 
 
 @media screen and (max-width: 600px){
