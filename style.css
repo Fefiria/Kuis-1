@@ -101,6 +101,7 @@ header .hero{
 
 .sync-button{
     text-align: center;
+    border-radius: 10px;
 }
 
 /* footer section */
@@ -131,13 +132,19 @@ header .hero{
     .hero img{
         width: 50%;
     }
-    .doc-cards .doc-img{
-        float: left;
-        width: 50%;
-        padding: 0 1%;
-    }
     .news-container .news-card{
         float: left;
+        width: 50%;
+    }
+
+    .doc-cards .doc-img{
+        float: left;
         width: 25%;
+        padding: 0 1%;
+    }
+    
+
+    .news-card{
+        width: 100%;
     }
 }
