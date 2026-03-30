@@ -109,6 +109,7 @@ header .hero{
 @media screen and (max-width: 600px){
     header .hero{
         align-content: center;
+        justify-content: center;
     }
     .hero img{
         width: 50%;
@@ -128,6 +129,7 @@ header .hero{
 @media screen and (min-width: 601px) and (max-width: 992px){
     header .hero{
         align-content: center;
+        justify-content: center;
     }
     .hero img{
         width: 50%;
