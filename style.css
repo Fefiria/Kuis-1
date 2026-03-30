@@ -17,6 +17,7 @@ h1{
 /* hero section  */
 header{
     padding: 2% 2vw;
+    width: 100%;
 }
 
 header .hero{
@@ -26,14 +27,17 @@ header .hero{
     background: rgb(0, 0, 0);
     border-radius: 15px;
     margin: 2% auto;
-    width: 20%;
+    padding: 1% ;
 }
 
 .hero img{
-    width: 100%;
+    width: 20%;
 }
 
 /* news section  */
+.news{
+    
+}
 
 .news-container{
     overflow: hidden;
@@ -102,8 +106,25 @@ header .hero{
 /* footer section */
 
 @media screen and (max-width: 600px){
+    .doc-cards .doc-img{
+        float: left;
+        width: 100%;
+        padding: 0 1%;
+    }
+    .news-container .news-card{
+        float: left;
+        width: 100%;
+    }
 
 }
 @media screen and (min-width: 601px) and (max-width: 992px){
-
+    .doc-cards .doc-img{
+        float: left;
+        width: 50%;
+        padding: 0 1%;
+    }
+    .news-container .news-card{
+        float: left;
+        width: 25%;
+    }
 }
