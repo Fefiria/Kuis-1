@@ -2,23 +2,62 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 body{
+    width: 100%;
     color: black;
 }
 
 /* hero section  */
 header .hero{
+    display:flex;
+    align-items:center;
     padding: 2% 6%;
     background: rgb(0, 0, 0);
-
+    margin: 2% auto;
 }
 
 .hero img{
     width: 100%;
 }
 
+/* news section  */
+
+.news-container{
+    overflow: hidden;
+}
+.news-container .news-card{
+    float: left;
+    width: 25%;
+}
+
+.news-card img{
+    width: 100%;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+/* documentaries sectioon */
+.documentaries{
+    padding: 3% 2%;
+    box-sizing: border-box;
+}
+
+.documentaries .doc-cards{
+    overflow: hidden;
+}
+
+.doc-cards .doc-img{
+    float: left;
+    width: 12.5%;
+}
+
+.doc-img img{
+    width: 100%;
+    border-radius: 15px;
+}
 
 @media screen and (max-width: 600px){
 
